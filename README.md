@@ -1,4 +1,4 @@
-# Nubie Investor
+## Nubie Investor
 
 A Flutter project for my [Youtube Channel Nubie Investor](https://youtube.com/c/nubieinvestor)
 
@@ -6,7 +6,7 @@ In the apps you can read all articles with other functional such as mark as favo
 
 THe data used in this project using HTTP request from my website https://nubieinvestor.com
 
-# A few function and packages that used in this apps include:
+## A few function and packages that used in this apps include:
 
 - HTTP Request to wordpress API (https://nubieinvestor.com use wordpress as CMS)
 - State management (Cubit)
