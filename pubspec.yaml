@@ -1,0 +1,56 @@
+name: nubie_investor
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  http: ^0.13.4
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  webview_flutter: ^2.0.4
+  flutter_html: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+  fonts:
+    - family: New York Small
+      fonts:
+        - asset: assets/fonts/NewYorkSmall-Regular.ttf
+        - asset: assets/fonts/NewYorkSmall-Bold.otf
+          weight: 800
+        - asset: assets/fonts/NewYorkSmall-Semibold.ttf
+          weight: 600
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Semibold.ttf
+          weight: 600
