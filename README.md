@@ -1,16 +1,24 @@
-# nubie_investor
+# Nubie Investor
 
-A new Flutter project.
+A Flutter project for my [Youtube Channel Nubie Investor](https://youtube.com/c/nubieinvestor)
 
-## Getting Started
+In the apps you can read all articles with other functional such as mark as favorite, search, set the UI to dark mode. 
 
-This project is a starting point for a Flutter application.
+THe data used in this project using HTTP request from my website https://nubieinvestor.com
 
-A few resources to get you started if this is your first Flutter project:
+# A few function and packages that used in this apps include:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- HTTP Request to wordpress API (https://nubieinvestor.com use wordpress as CMS)
+- State management (Cubit)
+  - Save list of articles state from HTTP request
+  - Save list of articles categories state from HTTP request
+  - Theme (Dark / Light mode)
+  - Navigation
+- Shared preference
+  - Remember user dark / light mode
+  - Save user favorite article
+- Search
+- WebView
+- Navigation
+- Custom widget
+- etc.
