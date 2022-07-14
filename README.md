@@ -1,5 +1,7 @@
 ## Nubie Investor
 
+https://play.google.com/store/apps/details?id=com.calvinandhika.nubie_investor
+
 A Flutter project for my [Youtube Channel Nubie Investor](https://youtube.com/c/nubieinvestor)
 
 In the apps you can read all articles with other functional such as mark as favorite, search, set the UI to dark mode. 
